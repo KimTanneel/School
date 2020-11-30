@@ -1,0 +1,7 @@
+﻿  DBHelper.cpp
+D:\cpp\DBHelper.cpp(139,13): warning C4101: 'sqlVersion': unreferenced local variable
+D:\cpp\DBHelper.cpp(185,13): warning C4101: 'sqlVersion': unreferenced local variable
+D:\cpp\DBHelper.cpp(220,11): warning C4101: 'ptrSqlVersion': unreferenced local variable
+D:\cpp\DBHelper.cpp(219,12): warning C4101: 'sqlVersion': unreferenced local variable
+D:\cpp\DBHelper.cpp(272,12): warning C4101: 'sqlVersion': unreferenced local variable
+  StudentManagementCPlusPlus.vcxproj -> D:\cpp\Debug\StudentManagementCPlusPlus.exe

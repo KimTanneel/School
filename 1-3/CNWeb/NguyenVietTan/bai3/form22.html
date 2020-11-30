@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style22.css">
+</head>
+<body>
+    <h1> Thông tin sinh viên</h1>
+    <div style="display:flex;" class="info1">
+        <div class="label">MaSV:</div>
+        <input id="masv" type="text">
+        <label for="">Nam</label>
+        <input type="radio" id="male" >
+        <label for="">Nữ</label>
+        <input type="radio" id="female" >
+    </div>
+    <div  class="info">
+        <div class="label">Họ Tên: </div>
+        <div>
+            <input id="name" type="text">
+        </div>
+        <div >Địa Chỉ</div>
+        <textarea id="address" placeholder="Your address" class="text_area w-100 name="  cols="20" rows="1" spellcheck="false"></textarea>
+    </div>
+    <div class="info">
+        <div class="label">Ngày:</div>
+        <input id="day" type="text">
+    </div>
+    <div class="info">
+        <div class="label">Tháng:</div>
+    <select name="" id="month">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+    </select>
+    <div class="country">Quê quán</div>
+    <textarea id="ipCountry" placeholder="Your address" name="  cols="20" rows="1" spellcheck="false"></textarea>
+    </div>
+    <div class="info">
+        <div class="label">Năm</div>
+        <select name="" id="year">
+            <option value="1">1998</option>
+            <option value="2">1999</option>
+            <option value="3">2000</option>
+            <option value="3">2001</option>
+            <option value="3">2002</option>
+        </select>
+    </div>
+    <label for="">Sở thích</label>
+    <input type="checkbox"  value="Sport"> 
+    <label for="">Sport</label> 
+    <input type="checkbox"  value="Shoping">
+    <label for="">Shoping</label> 
+    <input type="checkbox"  value="ALL">  
+    <label for="">All</label> <br>
+    <button onclick="submit()">Submit</button>
+    <button>Reset</button>
+    <button>Exit</button>
+    <script>
+        function submit(){
+           var masv= document.getElementById("masv").value;
+           var name= document.getElementById("name").value;
+           var day = document.getElementById("day").value;
+           var address = document.getElementById("address").value;
+           var country = document.getElementById("ipCountry").value;
+          
+           if(masv==""){alert("Chưa nhập msv")};
+           if(name==""){alert("Chưa nhập tên")};
+           if(day==""){alert("Chưa nhập ngày")};
+        }
+    </script>
+</body>
+</html>

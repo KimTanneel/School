@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select name="" id="select">
+        <option value="">Index 0</option>
+        <option value="">Index 1</option>
+        <option value="">Index 2</option>
+        <option value="">Index 3</option>
+
+    </select>
+    <input id="ipSelect" name="" type="text">
+    <button onclick="changeIndex()">Click Here</button>
+    <script>
+        function changeIndex(){
+            
+            var s= document.getElementById("select").selectedIndex;
+            document.getElementById("ipSelect").value=s;
+        }
+    </script>
+</body>
+</html>

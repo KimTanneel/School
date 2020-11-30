@@ -1,0 +1,13 @@
+header("Location:"http/edu.edu.vn");
+
+Học inlcude và require
+
+6.1 Jsp: include dùng để nhúng mã nguồn động
+    %@ inlcude file="URL or Filepath"
+Nhúng mã nguồn tĩnh
+
+2 đối tượng Request
+request.getParameter --> Lấy biến từ trang trước
+request.setAttribute --> Thêm thuộc tính cho trang
+request.getAttribue  --> Lấy thuộc tính vừa attribute của trang
+cấu hình tomcat chạy JSP

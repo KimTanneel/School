@@ -1,0 +1,12 @@
+*{
+    margin: 2px;
+}
+.info{
+    display: flex;
+}
+.label{
+    width: 58px;
+}
+.country{
+    margin-left: 130px;
+}

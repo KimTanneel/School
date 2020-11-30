@@ -1,0 +1,19 @@
+*{
+    margin-left: 5px !important;
+    margin-top: 10px !important;
+}
+a{
+    text-decoration: none !important;
+    margin: 6px 12px !important;
+}   
+a:hover{
+    color: #FFF;
+}
+
+.options{
+    margin: 10px;
+}
+.titles{
+    text-align: center;
+    margin: 0 10px;
+}

@@ -1,0 +1,29 @@
+close all;
+clc;
+
+n=10;
+
+hn=[0 0 0.4 0.8 0.4 0 0];  %Khoi tao h(n) theo du lieu cua de
+n_hn=-1:5; %Chi so cua h(n)
+
+xn=[0 1 0.6 0 0]; %Khoi tao x(n) theo du lieu cua de
+n_xn=-1:3; %Chi so cua x(n)
+
+yn=conv(hn,xn);
+%Chi so cua y(n)
+n_yn=(min(n_hn)+min(n_xn)):(max(n_hn)+max(n_xn)); 
+
+subplot(3,1,1);
+stem(n_hn,hn,'fill'); %Ve do thi h(n)
+title('h[n]');
+grid on;
+
+subplot(3,1,2);
+stem(n_xn,xn,'fill'); %Ve do thi x(n)
+title('x[n]');
+grid on;
+
+subplot(3,1,3);
+stem(n_yn,yn,'fill'); %Ve do thi y(n)
+title('y[n]');
+grid on;

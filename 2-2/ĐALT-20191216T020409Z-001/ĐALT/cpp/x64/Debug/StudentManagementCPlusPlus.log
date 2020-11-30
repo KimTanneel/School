@@ -1,0 +1,9 @@
+﻿  execute.cpp
+C:\Users\Huy Coc\Desktop\StudentManagementCPlusPlus\StudentManagementCPlusPlus\execute.cpp(7,12): error C2955: 'LinkedList': use of class template requires template argument list
+C:\Users\Huy Coc\Desktop\StudentManagementCPlusPlus\StudentManagementCPlusPlus\Bread.h(18): message : see declaration of 'LinkedList'
+C:\Users\Huy Coc\Desktop\StudentManagementCPlusPlus\StudentManagementCPlusPlus\execute.cpp(7,37): error C2514: 'LinkedList': class template cannot be constructed
+C:\Users\Huy Coc\Desktop\StudentManagementCPlusPlus\StudentManagementCPlusPlus\Bread.h(18): message : see declaration of 'LinkedList'
+C:\Users\Huy Coc\Desktop\StudentManagementCPlusPlus\StudentManagementCPlusPlus\execute.cpp(15,16): error C2039: 'addNode': is not a member of 'LinkedList'
+C:\Users\Huy Coc\Desktop\StudentManagementCPlusPlus\StudentManagementCPlusPlus\Bread.h(18): message : see declaration of 'LinkedList'
+C:\Users\Huy Coc\Desktop\StudentManagementCPlusPlus\StudentManagementCPlusPlus\execute.cpp(19,15): error C2039: 'display': is not a member of 'LinkedList'
+C:\Users\Huy Coc\Desktop\StudentManagementCPlusPlus\StudentManagementCPlusPlus\Bread.h(18): message : see declaration of 'LinkedList'

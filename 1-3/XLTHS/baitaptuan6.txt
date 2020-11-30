@@ -1,0 +1,12 @@
+2.14
+2.15
+2.16
+Để làm --> dùng các hàm sau 
+impz(nom,den,N); N: Số lượng mẫu tính toán 
+conv(convolution: Tổng chập) -->  Tính tổng chập x và h
+
+Tiếng anh
+8 làm giấy
+15
+16--> Làm nhòe ảnh
+coi hàm filter: Lọc nhiễu--> Làm bài số 8

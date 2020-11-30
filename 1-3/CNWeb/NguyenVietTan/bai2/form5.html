@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Nhập văn bản</label>
+    <input id="text" type="text">
+
+    <button onclick="change()">Click để đổi chữ hoa</button>
+    <script>
+        function change(){
+            var text =document.getElementById("text");
+            var valuetext =text.value.toUpperCase();
+            text.value=valuetext;
+        }
+    </script>
+</body>
+</html>

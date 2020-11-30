@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- action="/action_page.php" -->
+    <form name="form1" >
+        <h1>Login</h1>
+        <label>User:</label>
+        <input name="ipUser" type="text" value=""><br>
+        <label></label>Pass:</label>
+        <input name="ipPass" type="text"  value=""><br><br>
+        <button onclick="acessLogin()" name="btnOk"> OK</button>
+        <button name="btnReset"> Reset</button>
+        <button name="BtnCancel"> Cancel</button>
+      </form>
+    <script>
+        acessLogin = function(){
+            if (document.form1.ipUser.value=="" ||document.form1.ipPass.value=="" ){
+                alert(" Bạn chưa nhập đầy đủ thông tin");
+            }
+            else{
+                alert("Bạn đã login thành công");
+            }
+        }
+        resetLogin =function(){
+            document.form1.ipUser.value=="";
+            document.form1.ipPass.value=="";
+        }
+    </script> 
+</body>
+</html>

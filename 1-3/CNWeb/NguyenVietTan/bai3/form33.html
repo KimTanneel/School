@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="document.initFocus.ipFirst.focus()" >
+    <form name="initFocus" action="">
+        <input onblur="ChangeValue()" name="ipFirst" type="text">
+        <input  name="ipResult"type="text">
+    </form>
+    <script>
+        function ChangeValue(){  
+            var str =document.initFocus.ipFirst.value;
+            var result="";
+            for (var i=0;i<str.length;i++){
+                if(str.charCodeAt(i)>=65&&str.charCodeAt(i)<=90){
+                    result+=str.charAt(i).toLowerCase();
+                }
+                else if(str.charCodeAt(i)>=97&&str.charCodeAt(i)<=122){
+                    result+=str.charAt(i).toUpperCase();
+                }
+                else{
+                    result+=str.charAt(i);
+                }
+            }
+                document.initFocus.ipResult.value=result;
+        }
+      
+    </script>
+</body>
+</html>

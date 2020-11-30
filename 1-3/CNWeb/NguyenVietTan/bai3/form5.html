@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <P> LIÊN HỆ QUẢNG CÁO </p>
+<p>Hà Nội. Hotline: 0919 405 885 | Email: vietnamnetjsc.hn@vietnamnet.vn</p>
+<p></p>Tp.HCM. Hotline: 0919 435 885 | Email: vietnamnetjsc.hcm@vietnamnet.vn</p>
+<p>Xem thông tin chi tiết: http://vads.vn/</p>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+﻿  Bread.cpp
+  DBHelper.cpp
+C:\Users\ADMIN\Desktop\VITA\ĐALT-20191216T020409Z-001\ĐALT\DBHelper.cpp(72,14): warning C4129: 'M': unrecognized character escape sequence
+C:\Users\ADMIN\Desktop\VITA\ĐALT-20191216T020409Z-001\ĐALT\DBHelper.cpp(135,12): warning C4101: 'sqlVersion': unreferenced local variable
+C:\Users\ADMIN\Desktop\VITA\ĐALT-20191216T020409Z-001\ĐALT\DBHelper.cpp(240,11): warning C4101: 'sqlVersion': unreferenced local variable
+  StudentManagementCPlusPlus.cpp
+  execute.cpp
+  Generating Code...
+  StudentManagementCPlusPlus.vcxproj -> C:\Users\ADMIN\Desktop\VITA\ĐALT-20191216T020409Z-001\ĐALT\x64\Debug\StudentManagementCPlusPlus.exe

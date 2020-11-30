@@ -1,0 +1,7 @@
+x = [3 1 5 7 9 2 6]
+% l?y h?t ph?n t? t?o thành m?ng 1 dòng 
+x(1:end)
+% l?y ph?n t? t? v? trí th? 6 ??n vt1 b??c nh?y -2
+x(6:-2:1)
+
+x([1 6 2 1 1])
